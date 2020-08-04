@@ -15,4 +15,23 @@
 
     $ npm install -g @angular/cli
     > share stats (y/N)
+
+
+4) Création du projet
+
+    $ ng new monPremierProjetAngular
+    > Would you like to add Angular routing? (y/N)
+    ? Which stylesheet format would you like to use? 
+    ❯ CSS 
     
+
+5) Cibler le répertoire du projet 
+
+    $ cd monPremierProjetAngular
+
+
+6) Démarrage du serveur de développement
+
+    $ ng serve
+
+
