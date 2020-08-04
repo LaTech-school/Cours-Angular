@@ -1,0 +1,11 @@
+CLI
+---
+    ng new myCounter
+    cd myCounter
+    ng serve
+
+
+VSCODE
+---
+    Ouvrir VSCode sur myCounter
+    Supprimer le contenu du fichier /src/app/app.component.html

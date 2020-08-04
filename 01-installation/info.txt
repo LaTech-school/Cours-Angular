@@ -19,7 +19,7 @@
 
 4) Création du projet
 
-    $ ng new monPremierProjetAngular
+    $ ng new <project-name>
     > Would you like to add Angular routing? (y/N)
     ? Which stylesheet format would you like to use? 
     ❯ CSS 
@@ -27,11 +27,20 @@
 
 5) Cibler le répertoire du projet 
 
-    $ cd monPremierProjetAngular
+    $ cd <project-name>
 
 
 6) Démarrage du serveur de développement
 
     $ ng serve
 
+    Ouvrir le navigateur : http://localhost:4200
 
+    Arret du serveur : ctrl + c
+
+
+
+7) Creation d'un Module
+
+    $ ng generate module book
+    $ ng g m book

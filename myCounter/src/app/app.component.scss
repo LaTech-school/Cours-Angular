@@ -1,0 +1,17 @@
+
+$color1: #FF0000;
+$width: 1px + 20;
+
+@mixin border-radius($size) {
+    border-radius: $size + $width;
+    -webkit-border-radius: $size + $width;
+    -moz-border-radius: $size + $width;
+}
+
+span {
+    border: $width solid $color1;
+    padding: 0 20px;
+    color: $color1;
+
+    @include border-radius(10px);
+}

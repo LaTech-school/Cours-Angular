@@ -1,0 +1,21 @@
+<h1>Hello {{ firstname }}</h1>
+
+
+<div>
+  <label for="name">Nom du produit : </label>
+  <input type="text" id="name" [(ngModel)]="itemName">
+</div>
+<div>
+  <label for="qty">Quantité : </label>
+  <input type="text" id="qty" [(ngModel)]="itemQty">
+</div>
+
+<button (click)="add()">Ajouter à la liste</button>
+
+<ul>
+  <li *ngFor="let item of items">{{ item.name }} ({{ item.qty }})</li>
+</ul>
+
+
+<hr>
+
